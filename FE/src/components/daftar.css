@@ -1,0 +1,73 @@
+
+.daftar-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #78B3CE, #ffffff);
+  padding: 10px;
+}
+.daftar-form-container {
+  background-color: #ffffffae;
+  padding: 20px 30px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 500px;
+  align-content: center;
+}
+
+.daftar-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.daftar-label {
+  text-align: left;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+.daftar-input,
+.daftar-select {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input::placeholder {
+  color: #aaaaaae3;
+}
+
+.daftar-button {
+  padding: 10px;
+  background-color: #5cb9f2;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.daftar-button:hover {
+  background-color: #4aa8e2;
+}
+
+.daftar-p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #555;
+}
+
+.daftar-link {
+  color: #5cb9f2;
+  text-decoration: none;
+}
+
+.daftar-link:hover {
+  text-decoration: underline;
+}

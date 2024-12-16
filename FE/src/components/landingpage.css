@@ -1,0 +1,48 @@
+/* Container utama */
+.landing-ya {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 90px;
+  background: linear-gradient(to right, #78B3CE, #344F5C);
+  margin-top: -5px;
+}
+
+/* Judul utama */
+.landing-h1 {
+  color: white;
+  font-size: 60px;
+  text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+  max-width: 50%;
+  line-height: 1.2;
+  margin: 0;
+}
+
+/* Gambar */
+.landing-img {
+  border-radius: 20px;
+  width: 400px;
+  height: auto;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Tombol */
+.landing-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 30px;
+  background-color: transparent;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.landing-button:hover {
+  background-color: white;
+  color: #78B3CE;
+}

@@ -1,0 +1,72 @@
+.masuk-page {
+    display: flex;
+    justify-content: center; /* Pusat horizontal */
+    align-items: center; /* Pusat vertikal */
+    height: 100vh; /* Tinggi penuh viewport */
+    background: linear-gradient(to bottom, #78B3CE, #ffffff);
+    padding: 10px; /* Tambahan padding jika diperlukan */
+  }
+  
+  .masuk-form-container {
+    background-color: #ffffffae;
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+  }
+  
+  .masuk-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .masuk-label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .masuk-input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .masuk-input::placeholder {
+    color: #aaaaaae3;
+  }
+  
+  .masuk-button {
+    padding: 10px;
+    background-color: #5cb9f2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .masuk-button:hover {
+    background-color: #4aa8e2;
+  }
+  
+  .masuk-p {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #555;
+  }
+  
+  .masuk-p a {
+    color: #5cb9f2;
+    text-decoration: none;
+  }
+  
+  .masuk-p a:hover {
+    text-decoration: underline;
+  }
+  

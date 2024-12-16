@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+One&display=swap');
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 90px;
+  width: 100%;
+  background: url("https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/4proqs8i9n9-123%3A9?alt=media&token=4e792ac2-2c3a-4ab5-9c56-61794ac02be3")
+    no-repeat center/cover;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navbar img {
+  height: 33px;
+  margin-right: 20px;
+}
+
+.title {
+  flex-grow: 1;
+  color: white;
+  font-size: 2rem;
+  font-family: "Sansita One", sans-serif;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+.user-info img {
+  height: 34px;
+  margin-right: 10px;
+}
+
+.menu-icon {
+  cursor: pointer;
+  font-size: 2rem;
+  color: white;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px; /* Sidebar tersembunyi di awal */
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5); /* Shadow untuk sidebar */
+  transition: left 0.3s ease; /* Transisi halus */
+}
+
+.sidebar.open {
+  left: 0; /* Sidebar muncul */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 20px 0;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar ul li a:hover {
+  color: #ff9800;
+  transition: color 0.3s ease;
+}
+
+.sidebar ul li a.active {
+  color: #ff9800;
+  font-weight: bold;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #ff9800;
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease;
+}
+
+.close-button:hover {
+  color: #ff9800;
+}
+
+.sidebar ul {
+  padding-top: 50px !important;
+}
